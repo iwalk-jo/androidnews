@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-sptyle" content="black">
+	<meta name="theme-color" content="#2196f3">
+	<title>News Portal</title>
+	<link rel="stylesheet" href="build/css/framework7.material.css">
+	<link rel="stylesheet" href="build/css/framework7.material.colors.css">
+	<link rel="stylesheet" href="css/material-icon.css">
+	<link rel="stylesheet" href="css/kitchen-sink.css">
+	<link rel="icon" href="img/icon.png">
+</head>
+<body class="theme-teal">
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+<div class="views">
+	<div class="view view-main">
+		<div class="pages navbar-fixed">
+			<div data-page="index" class="page">
+				
+				<!-- Navigasi-->
+				<div class="navbar">
+                    <div class="navbar-inner">  
+                    	<div class="left"></div>
+                    	<div class="center">News Portal</div>
+                    	<div class="right "><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+                    </div>
+                </div>	
+
+
+				<!-- Content Page-->
+				<div class="page-content">
+					                   
+				    <div class="content-block"><a href="news.html"><img src="img/news.png" width="100%"></a></div>
+				    
+				</div>    				
+               
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Open Panel-->
+<div class="panel panel-right panel-reveal">  <!-- content position is left-->
+    <div class="content-block">                        
+        <p> Left Panel Content here</p>
+        <p><a href="#" class="close-panel">Close Me</a></p>
+    </div>
+</div>
+<!-- End Panel-->  
+
+<script type="text/javascript" src="build/js/framework7.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>
